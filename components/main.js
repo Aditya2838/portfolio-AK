@@ -98,9 +98,7 @@ export default function Main() {
         </Waypoints>
         {/* Header Ends */}
 
-        <About />
-        <Projects />
-        <Contact />
+       
       </>
     );
 }
