@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Typed from "react-typed";
+import { Typewriter } from "react-simple-typewriter";
 import { FaUserAlt } from "react-icons/fa";
 import { MdCode } from 'react-icons/md'
 import { IoIosArrowDropdownCircle } from "react-icons/io";
@@ -36,13 +36,16 @@ export default function Main() {
                   className="md:text-xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-indigo-600 to-indigo-500 md:inline-block md:mt-0 mt-2"
                 >
                   {`Someone who likes to `}
-                  <Typed
-                    strings={["coding", "sleeping", "gaming"]}
-                    typeSpeed={79}
-                    backSpeed={50}
-                    backDelay={40}
-                    loop
-                  />
+                  <Typewriter
+  words={["coding", "sleeping", "gaming"]}
+  loop={true}
+  cursor
+  cursorStyle="|"
+  typeSpeed={70}
+  deleteSpeed={50}
+  delaySpeed={1000}
+/>
+
                 </p>
                 <Social type={"hero"} />
 

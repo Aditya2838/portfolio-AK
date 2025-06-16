@@ -22,13 +22,13 @@
     "react-hot-toast": "^2.4.0",
     "react-icons": "^4.6.0",
     "react-intersection-observer": "^9.4.1",
-    "react-typed": "^1.2.0",
+    "react-simple-typewriter": "^5.0.1",
     "s-age": "^1.1.2",
     "sharp": "^0.31.2",
     "webhook-discord": "^3.7.8"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.13",
+    "autoprefixer": "^10.4.21",
     "eslint": "8.28.0",
     "eslint-config-next": "13.0.4",
     "postcss": "^8.4.19",
